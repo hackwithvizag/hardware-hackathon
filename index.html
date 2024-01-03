@@ -36,6 +36,10 @@
    <link rel="stylesheet" href="css/owl.theme.default.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
       media="screen">
+   <script>
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+   </script>
    
 </head>
 
@@ -594,6 +598,30 @@
    <!-- javascript -->
    <script src="js/owl.carousel.js"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+         <script type="module">
+  // Import the functions you need from the SDKs you need
+
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyD2iI1l-uV6kEdiCMSHqr7XE9RsF5KxR6c",
+    authDomain: "harware-85c51.firebaseapp.com",
+    projectId: "harware-85c51",
+    storageBucket: "harware-85c51.appspot.com",
+    messagingSenderId: "1012674182571",
+    appId: "1:1012674182571:web:4e3da2115a88ccfd1ce6ee",
+    measurementId: "G-K4FPLKGTEJ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+   
 </body>
 
 </html>
